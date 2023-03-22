@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  color: white;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(3, 1, 28);
+}
+
+header {
+  background-color: rgb(42, 187, 254);
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 4;
+}
+
+footer {
+  background-color: rgb(42, 81, 254);
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 4;
+  
+}
+
+main {
+  max-width: 700px;
+  margin: 60px;
+  margin-bottom: 80px;
+}
+
+article {
+  /* Te jāpapildina CSS */
+  margin-bottom: 200px;
+  margin-top: 100px;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+img {
+  width: 400px;
+}
+
+p {
+  font-size: 2rem;
+}
+
+/* Te jāpapildina CSS */
+.liepaja{
+  position:absolute;
+  margin-top:300px;
+  margin-left: 150px;
+
+}
+.australia{
+  position:absolute;
+  margin-top:330px;
+  margin-left: 20px;
+}
+.indonesia{
+  position:absolute;
+  margin-top: 120px;
+  margin-left: 140px;
+}
+.one-destination{
+  display: grid;
+position: relative;
+}

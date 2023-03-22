@@ -1,0 +1,109 @@
+body{
+    background-color: beige;
+}
+.burger{
+    display: none;
+    position:absolute;
+    margin-right: 10px;
+}
+nav{
+    position: relative;
+
+}
+
+header{
+    background-color: rgb(35, 36, 34);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1000vw;
+    z-index: 4;
+}
+ul{
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+    transition: transform 0.6s ;
+}
+li:hover{
+    transform: translateY(10px);
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: beige;
+
+}
+
+p{
+    color:rgb(138, 91, 4);
+}
+
+main{
+    margin-top: 80px;
+}
+
+.cube{
+width: 300px;
+height: 300px;
+background-color: rgb(207, 163, 68);
+display: grid;
+position: relative;
+
+}
+.inner-cube{
+width: 100px;
+height: 100px;
+background-color: chocolate;
+position:absolute;
+top:130px;
+right: 15px;
+}
+
+.check{
+    display: none;
+}
+@media (max-width:305px){
+    .check{
+        display: block;
+        position:absolute;
+        top:0;
+        left: 0;
+        width: 40px;
+        height: 40px;
+        opacity: 0,5;
+        cursor: pointer;
+        
+    }
+
+    .burger{
+        display: block;
+    }
+    ul{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        flex-direction: column;
+        background-color: rgb(35, 36, 34);
+        margin:0;
+        width: 100vw;
+        padding-left: 0;
+        align-items: center;
+    }
+    li{
+        padding-bottom:20px;
+    }
+    .check:checked + ul{
+        display:flex;
+    }
+}
+
+

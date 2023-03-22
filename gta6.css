@@ -1,0 +1,12 @@
+
+ body > button{
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+    transition: transform 0.4s ;
+ }
+ button:hover{
+     Transform: translateX(10px);
+ }
