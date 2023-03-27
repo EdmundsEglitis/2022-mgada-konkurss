@@ -70,6 +70,7 @@ right: 15px;
 
 .check{
     display: none;
+    z-index: 4;
 }
 @media (max-width:305px){
     .check{
@@ -79,7 +80,7 @@ right: 15px;
         left: 0;
         width: 40px;
         height: 40px;
-        opacity: 0,5;
+        opacity: 0.0;
         cursor: pointer;
         
     }
@@ -103,6 +104,8 @@ right: 15px;
     }
     .check:checked + ul{
         display:flex;
+        height: 80px;
+        color: rgb(35, 36, 34);
     }
 }
 
